@@ -1,7 +1,7 @@
 import React from 'react'
 import maddison from '../Photos/MaddisonCove.jpeg'
 import camilla from '../Photos/CamillaZinober.jpeg'
-import jason from '../Photos/JasonJoseph.jpeg'
+// import jason from '../Photos/JasonJoseph.jpeg'
 import clint from '../Photos/Clint.jpg'
 import kevin from '../Photos/Kevin.jpg'
 import { IoLogoInstagram } from 'react-icons/io'
@@ -50,12 +50,12 @@ const Gallery = () => {
           <a href="https://www.instagram.com/camilla_zinober/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Camilla Zinober - Colorist / Extension Specialist <IoLogoInstagram size='20' /></p></a>
         </div>
 
-        <div className='artistbox'>
+        {/* <div className='artistbox'>
           <div className='imgbox'>
             <img src={jason} alt="jason" />
           </div>
           <a href="https://www.instagram.com/jasonjosephhair/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Jason Joseph - Stylist / Colorist <IoLogoInstagram size='20' /></p></a>
-        </div>
+        </div> */}
       </div>
       <div className='brLine'></div>
       <h2>GALLERY</h2>
