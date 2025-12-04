@@ -1,6 +1,6 @@
 import React from 'react'
 import maddison from '../Photos/MaddisonCove.jpeg'
-import camilla from '../Photos/CamillaZinober.jpeg'
+import sam from '../Photos/Sam.jpg'
 // import jason from '../Photos/JasonJoseph.jpeg'
 import clint from '../Photos/Clint.jpg'
 import kevin from '../Photos/Kevin.jpg'
@@ -45,9 +45,9 @@ const Gallery = () => {
         
         <div className='artistbox'>
           <div className='imgbox'>
-            <img src={camilla} alt="camilla" />
+            <img src={sam} alt="samantha" />
           </div>
-          <a href="https://www.instagram.com/camilla_zinober/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Camilla Zinober - Colorist / Extension Specialist <IoLogoInstagram size='20' /></p></a>
+          <a href="https://www.instagram.com/samanthahreed/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Samantha Reed - Stylist / Colorist / Extension Specialist <IoLogoInstagram size='20' /></p></a>
         </div>
 
         {/* <div className='artistbox'>
