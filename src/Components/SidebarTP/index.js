@@ -2,7 +2,7 @@ import React from 'react'
 // import { FaBorderNone } from 'react-icons/fa'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarBtn, ShopNav } from './SidebarElements'
 
-const Sidebar = ({isOpen, toggle}) => {
+const SidebarTP = ({isOpen, toggle}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
@@ -36,4 +36,4 @@ const Sidebar = ({isOpen, toggle}) => {
   )
 }
 
-export default Sidebar
+export default SidebarTP

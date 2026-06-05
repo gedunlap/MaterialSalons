@@ -12,6 +12,9 @@ const Navbar = ({toggle}) => {
                 <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
             </NavLink>
             <NavMenu>
+              <NavLink to="/sp/home">
+                Home
+              </NavLink>
               <NavLink to="/sp/about">
                 About
               </NavLink>
