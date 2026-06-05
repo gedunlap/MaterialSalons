@@ -1,10 +1,13 @@
 import React from 'react'
 import sign from '../Photos/SignPhoto.jpg'
 import joanna from '../Photos/joanna.jpg'
+import construction from '../Photos/UnderConstruction.png'
+
 
 const About = () => {
   return (
     <div className='about'>
+      <img src={construction} alt="construction" />
       <div className='aboutHeader'><h1>ABOUT</h1></div>
       <div className='brLine' />
       <div className='about1'>

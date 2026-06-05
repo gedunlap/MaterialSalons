@@ -3,6 +3,7 @@ import img9 from '../Photos/Site Pics/9.jpg'
 import longhair from '../Photos/longhair.jpg'
 // import { BiRightArrow } from "react-icons/bi";
 // import { BsArrowRightShort } from "react-icons/bs";
+import construction from '../Photos/UnderConstruction.png'
 
 
 
@@ -11,6 +12,7 @@ const Services = () => {
     <div className='services'>
       <div className='servicesHeader'><h1>SERVICES</h1></div>
       <div className='brLine' />
+      <img src={construction} alt="construction" />
       {/* <img className='servicesHeaderImg' src={img9} alt="salon" /> */}
       <h3 style={{textAlign:"center"}}>* The listings below indicate starting prices. Final prices will depend on service provider, timing, hair length, density and / or special treatment required.</h3>
       <div className='servicesColor'>

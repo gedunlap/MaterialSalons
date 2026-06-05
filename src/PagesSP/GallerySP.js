@@ -5,6 +5,7 @@ import sam from '../Photos/Sam.jpg'
 import clint from '../Photos/Clint.jpg'
 import kevin from '../Photos/Kevin.jpg'
 import { IoLogoInstagram } from 'react-icons/io'
+import construction from '../Photos/UnderConstruction.png'
 
 
 const imgArr = [
@@ -22,6 +23,7 @@ const Gallery = () => {
     <div className='gallerypage'>
       <h1 className='artistHeader'>ARTISTS</h1>
       <div className='brLine'></div>
+      <img src={construction} alt="construction" />
       <div className='artists'>
         <div className='artistbox'>
           <div className='imgbox'>
