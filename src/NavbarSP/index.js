@@ -12,13 +12,13 @@ const Navbar = ({toggle}) => {
                 <img  style={{border:"solid white 2px"}} className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
             </NavLink>
             <NavMenu>
-              <NavLink to="/about">
+              <NavLink to="/sp/about">
                 About
               </NavLink>
-              <NavLink to="/gallery">
+              <NavLink to="/sp/gallery">
                 Artists & Gallery
               </NavLink>
-              <NavLink to="/services">
+              <NavLink to="/sp/services">
                 Services
               </NavLink>
               <ShopNav>

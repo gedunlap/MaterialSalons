@@ -44,9 +44,8 @@ import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
 const Home = () => {
   return (
     <div className='home'>
-      Hello
-      <img className='homelogotp' src={tpaLogo} alt="logo" />
-      <img className='homelogosp' src={mspLogo} alt="logo" />
+      <img className='homelogosp' src={mspLogo} alt="St Pete Logo" />
+      Hello, this is the St Pete Home page
     </div>
   )
 }
