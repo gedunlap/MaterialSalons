@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBorderNone } from 'react-icons/fa'
+// import { FaBorderNone } from 'react-icons/fa'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarBtn, ShopNav } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -23,7 +23,7 @@ const Sidebar = ({isOpen, toggle}) => {
               Services
             </SidebarLink>
             <ShopNav>
-              <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" rel="noopener" style={{textDecoration:"none", color:"white"}}>Shop</a>
+              <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Shop</a>
             </ShopNav>
           </SidebarMenu>
         </SidebarWrapper>

@@ -58,8 +58,13 @@ body{
 .home{
     margin-bottom: 50px;
 
-    .homelogo{
-        width: 50%;
+    .homelogotp{
+        width: 30%;
+        margin: 10px 0;
+    }
+
+    .homelogosp{
+        width: 30%;
         margin: 10px 0;
     }
 
@@ -402,7 +407,12 @@ body{
         padding: 0;
     }
 
-    .homelogo{
+    .homelogosp{
+        min-width: 80%;
+        padding-left: 20px;
+    }
+
+    .homelogotp{
         min-width: 80%;
         padding-left: 20px;
     }

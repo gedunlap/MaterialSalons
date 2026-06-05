@@ -22,16 +22,16 @@ const Navbar = ({toggle}) => {
                 Services
               </NavLink>
               <ShopNav>
-                <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
+                <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Shop</a>
               </ShopNav>
             </NavMenu>
           </div>
           <Bars onClick={toggle} />
           <NavBtn>
             <NavBtnA>
-              <a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
+              <a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
             </NavBtnA>
-            <a href="https://www.instagram.com/materialtampa/" target="_blank"><IoLogoInstagram size='30' style={{color:"white"}} /></a>
+            <a href="https://www.instagram.com/materialtampa/" target="_blank" rel="noreferrer"><IoLogoInstagram size='30' style={{color:"white"}} /></a>
             <a href="mailto: contact@materialtampa.com"><IoMailOutline size='30' style={{color:"white"}} /></a>
           </NavBtn>
         </Nav>
