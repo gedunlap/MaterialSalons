@@ -6,7 +6,6 @@ import React from 'react'
 // import { NavBtnA } from '../Components/Navbar/NavbarElements'
 // import tm from '../Photos/TM-symbol.png'
 
-import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
 
 
