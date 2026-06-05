@@ -1,10 +1,10 @@
 import React from 'react'
 // import construction from '../Photos/UnderConstruction.png'
-import Slideshow from '../Components/Slideshow/Slideshow'
-import Slideshow2 from '../Components/Slideshow2/Slideshow2'
-import { AiOutlinePhone } from "react-icons/ai";
-import { NavBtnA } from '../Components/Navbar/NavbarElements'
-import tm from '../Photos/TM-symbol.png'
+// import Slideshow from '../Components/Slideshow/Slideshow'
+// import Slideshow2 from '../Components/Slideshow2/Slideshow2'
+// import { AiOutlinePhone } from "react-icons/ai";
+// import { NavBtnA } from '../Components/Navbar/NavbarElements'
+// import tm from '../Photos/TM-symbol.png'
 
 import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
