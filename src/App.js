@@ -3,8 +3,9 @@ import { useLocation } from 'react-router-dom';
 import './App.css';
 import NavbarTP from './Components/NavbarTP';
 import Main from './Components/Main';
+import NavbarLanding from './Components/NavbarLanding'
 import Sidebar from './Components/Sidebar' 
-import Navbar2 from './Components/NavbarLanding'
+import SidebarLanding from './Components/SidebarLanding'
 
 function App() {
 
@@ -19,9 +20,14 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar isOpen={isOpen} toggle={toggle} />
       {isLandingPage ? (
-        <Navbar2 toggle={toggle} />
+        <SidebarLanding isOpen={isOpen} toggle={toggle} />
+      ) : ( 
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+      )}
+      
+      {isLandingPage ? (
+        <NavbarLanding toggle={toggle} />
       ) : (
         <NavbarTP toggle={toggle} />
       )}

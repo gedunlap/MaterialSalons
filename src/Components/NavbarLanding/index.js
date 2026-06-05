@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 // import { IoMailOutline } from 'react-icons/io5'
 import { Nav, NavLink, Bars, NavBtn } from './NavbarElements'
 
-const Navbar2 = ({toggle}) => {
+const NavbarLanding = ({toggle}) => {
   return (
     <>
         <Nav>
@@ -45,4 +45,4 @@ const Navbar2 = ({toggle}) => {
   )
 }
 
-export default Navbar2
+export default NavbarLanding

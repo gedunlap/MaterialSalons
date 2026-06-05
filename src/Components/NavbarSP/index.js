@@ -9,7 +9,7 @@ const Navbar = ({toggle}) => {
         <Nav>
           <div className='navLeft'>
             <NavLink to="/">
-                <img  style={{border:"solid white 2px"}} className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
+                <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
             </NavLink>
             <NavMenu>
               <NavLink to="/sp/about">

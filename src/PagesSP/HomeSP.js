@@ -2,10 +2,11 @@ import React from 'react'
 // import construction from '../Photos/UnderConstruction.png'
 // import Slideshow from '../Components/Slideshow/Slideshow'
 // import Slideshow2 from '../Components/Slideshow2/Slideshow2'
-// import { AiOutlinePhone } from "react-icons/ai";
-// import { NavBtnA } from '../Components/Navbar/NavbarElements'
-// import tm from '../Photos/TM-symbol.png'
+import { AiOutlinePhone } from "react-icons/ai";
+import { NavBtnA } from '../Components/NavbarSP/NavbarElements'
+import tm from '../Photos/TM-symbol.png'
 
+// import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
 
 
@@ -43,8 +44,20 @@ import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
 const Home = () => {
   return (
     <div className='home'>
-      <img className='homelogosp' src={mspLogo} alt="St Pete Logo" />
-      Hello, this is the St Pete Home page
+      <img className='homelogosp' src={mspLogo} alt="StPete Logo" />
+      <img className='homelogotm' src={tm} alt="logotm" />
+      <div className='homeText'>
+        <div className='brLine' />
+        <NavBtnA>
+          <a href="https://www.fresha.com/a/material-st-pete-st-petersburg-1957-1st-avenue-south-jemgscy9?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
+        </NavBtnA>
+        <br />
+        <div><AiOutlinePhone size='35' style={{color:"white"}} /><br /><a href="tel:+1-813-280-1356" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>(727) 506-2236</a></div>
+        <br />
+        <div className="t4"><p>1957 1st Ave S, St. Petersburg, FL 33712</p></div>
+        <div className='t5'>Tuesday - Saturday</div>
+        <div className='t5'>9am-5pm</div>
+      </div>
     </div>
   )
 }

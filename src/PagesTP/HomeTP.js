@@ -6,14 +6,14 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { NavBtnA } from '../Components/NavbarTP/NavbarElements'
 import tm from '../Photos/TM-symbol.png'
 
-// import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
+import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 // import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
 
 
 const Home = () => {
   return (
       <div className='home'>
-        <img className='homelogotp' src="https://imgur.com/7ykZPJM.jpg" alt="logo" />
+        <img className='homelogotp' src={tpaLogo} alt="logo" />
         <img className='homelogotm' src={tm} alt="logotm" />
         {/* <div classname='slideshowweb' style={{display:'flex', justifyContent:'center'}}>
           <img className='underconstruction' style={{margin:'50px', width:'40%'}} src={construction} alt="under-construction"/>
@@ -34,7 +34,8 @@ const Home = () => {
           <div><AiOutlinePhone size='35' style={{color:"white"}} /><br /><a href="tel:+1-813-280-1356" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>(813) 280-1356</a></div>
           <br />
           <div className="t4"><p>2502 N. Howard Ave Suite A Tampa, FL 33607</p></div>
-          <div className='t5'>Tuesday - Saturday: 9am-5pm</div>
+          <div className='t5'>Tuesday - Saturday</div>
+          <div className='t5'>9am-5pm</div>
         </div>
       </div>
   )
