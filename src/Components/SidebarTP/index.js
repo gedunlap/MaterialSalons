@@ -13,16 +13,16 @@ const SidebarTP = ({isOpen, toggle}) => {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to='/'>
+            <SidebarLink to='/tp/home'>
               Home
             </SidebarLink>
-            <SidebarLink to='/about'>
+            <SidebarLink to='/tp/about'>
               About
             </SidebarLink>
-            <SidebarLink to='/gallery'>
+            <SidebarLink to='/tp/gallery'>
               Artists & Gallery
             </SidebarLink>
-            <SidebarLink to='/services'>
+            <SidebarLink to='/tp/services'>
               Services
             </SidebarLink>
             <ShopNav>
