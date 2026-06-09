@@ -1,7 +1,7 @@
 import React from 'react'
 // import construction from '../Photos/UnderConstruction.png'
-// import Slideshow from '../Components/Slideshow/Slideshow'
-// import Slideshow2 from '../Components/Slideshow2/Slideshow2'
+import SlideshowSTP from '../Components/SlideshowSTP/Slideshow'
+import SlideshowMobileSTP from '../Components/SlideshowMobileSTP/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoInstagram } from 'react-icons/io'
@@ -10,7 +10,7 @@ import tm from '../Photos/TM-symbol.png'
 
 // import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
-import construction from '../Photos/UnderConstruction.png'
+// import construction from '../Photos/UnderConstruction.png'
 
 
 // const Home = () => {
@@ -49,9 +49,15 @@ const Home = () => {
     <div className='home'>
       <img className='homelogosp' src={mspLogo} alt="StPete Logo" />
       <img className='homelogotm' src={tm} alt="logotm" />
+      <div className='slideshowweb'>
+        <SlideshowSTP />
+      </div>
+      <div className='slideshowphone'>
+        <SlideshowMobileSTP />
+      </div>
       <div className='homeText'>
         <div className='brLine' />
-        <img src={construction} alt="construction" />
+        {/* <img src={construction} alt="construction" /> */}
         <NavBtnA>
           <a href="https://www.fresha.com/a/material-st-pete-st-petersburg-1957-1st-avenue-south-jemgscy9?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
         </NavBtnA>

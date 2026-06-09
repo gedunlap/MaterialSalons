@@ -1,7 +1,7 @@
 import React from 'react'
 // import construction from '../Photos/UnderConstruction.png'
-import Slideshow from '../Components/Slideshow/Slideshow'
-import Slideshow2 from '../Components/Slideshow2/Slideshow2'
+import Slideshow from '../Components/SlideshowTPA/Slideshow'
+import Slideshow2 from '../Components/SlideshowMobileTPA/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineMail } from 'react-icons/hi';
 import { IoLogoInstagram } from 'react-icons/io';
