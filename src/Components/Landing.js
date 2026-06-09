@@ -1,6 +1,6 @@
 import React from 'react'
-import tpaLogo from '../Photos/TPA//MT logo Large.png'
-import mspLogo from '../Photos/StPete/MSP logo Large.png'
+import tpaLogo from '../Photos/TPA/mt-logo.jpeg'
+import mspLogo from '../Photos/StPete/msp-logo.jpeg'
 
 const Landing = () => {
     return (

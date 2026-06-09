@@ -22,7 +22,7 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to='/sp/gallery'>
               Artists & Gallery
             </SidebarLink>
-            <SidebarLink to='/tp/services'>
+            <SidebarLink to='/sp/services'>
               Services
             </SidebarLink>
             <ShopNav>
