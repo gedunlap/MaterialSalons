@@ -12,7 +12,7 @@ const Services = () => {
     <div className='services'>
       <div className='servicesHeader'><h1>SERVICES</h1></div>
       <div className='brLine' />
-      <img src={construction} alt="construction" />
+      {/* <img src={construction} alt="construction" /> */}
       {/* <img className='servicesHeaderImg' src={img9} alt="salon" /> */}
       <h3 style={{textAlign:"center"}}>* The listings below indicate starting prices. Final prices will depend on service provider, timing, hair length, density and / or special treatment required.</h3>
       <div className='servicesColor'>

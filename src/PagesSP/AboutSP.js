@@ -7,7 +7,7 @@ import construction from '../Photos/UnderConstruction.png'
 const About = () => {
   return (
     <div className='about'>
-      <img src={construction} alt="construction" />
+      {/* <img src={construction} alt="construction" /> */}
       <div className='aboutHeader'><h1>ABOUT</h1></div>
       <div className='brLine' />
       <div className='about1'>

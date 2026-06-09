@@ -23,7 +23,7 @@ const Gallery = () => {
     <div className='gallerypage'>
       <h1 className='artistHeader'>ARTISTS</h1>
       <div className='brLine'></div>
-      <img src={construction} alt="construction" />
+      {/* <img src={construction} alt="construction" /> */}
       <div className='artists'>
         <div className='artistbox'>
           <div className='imgbox'>
