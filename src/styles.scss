@@ -81,6 +81,8 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        max-width: 500px;
+        margin-top: 30px;
     }
 
     .homelogosp{
@@ -88,6 +90,8 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        max-width: 500px;
+        margin-top: 30px;
     }
 
     .homelogotm{
@@ -518,11 +522,13 @@ body{
     .homelogosp{
         min-width: 80%;
         padding-left: 20px;
+        padding-right: 15px;
     }
 
     .homelogotp{
         min-width: 80%;
         padding-left: 20px;
+        padding-right: 15px;
     }
 
     .homelogotm{

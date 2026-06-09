@@ -1,6 +1,6 @@
 import React from 'react'
-import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
-import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
+import tpaLogo from '../Photos/TPA//MT logo Large.png'
+import mspLogo from '../Photos/StPete/MSP logo Large.png'
 
 const Landing = () => {
     return (
@@ -27,7 +27,7 @@ const Landing = () => {
             <div>
                 <h3>Hours</h3>
                 <p>Tuesday — Saturday</p>
-                <p>9am — 5pm</p>
+                <p>10am — 5pm</p>
             </div>
             <div>
                 <h3>Contact</h3>

@@ -3,6 +3,8 @@ import React from 'react'
 // import Slideshow from '../Components/Slideshow/Slideshow'
 // import Slideshow2 from '../Components/Slideshow2/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
+import { IoLogoInstagram } from 'react-icons/io'
 import { NavBtnA } from '../Components/NavbarSP/NavbarElements'
 import tm from '../Photos/TM-symbol.png'
 
@@ -54,11 +56,13 @@ const Home = () => {
           <a href="https://www.fresha.com/a/material-st-pete-st-petersburg-1957-1st-avenue-south-jemgscy9?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
         </NavBtnA>
         <br />
-        <div><AiOutlinePhone size='35' style={{color:"white"}} /><br /><a href="tel:+1-813-280-1356" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>(727) 506-2236</a></div>
+        <div><AiOutlinePhone size='25' style={{color:"white"}} />    <a href="tel:+1-813-280-1356" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>(727) 506-2236</a></div>
+        <div><HiOutlineMail size='25' style={{color:"white"}} />    <a href="mailto:stpete@materialsalons.com" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>stpete@materialsalons.com</a></div>
+        <div><IoLogoInstagram size='25' style={{color:"white"}} />    <a href="http://instagram.com/materialstpete" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>materialstpete</a></div>
         <br />
         <div className="t4"><p>1957 1st Ave S, St. Petersburg, FL 33712</p></div>
         <div className='t5'>Tuesday - Saturday</div>
-        <div className='t5'>9am-5pm</div>
+        <div className='t5'>10am-5pm</div>
       </div>
     </div>
   )
