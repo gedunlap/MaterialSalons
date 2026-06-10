@@ -55,7 +55,7 @@ const Gallery = () => {
           <div className='imgbox'>
             <img src={shea} alt="shea" />
           </div>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Shea Galko <IoLogoInstagram size='20' /></p></a>
+          <a href="https://www.instagram.com/hairbysheagalko_" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Shea Galko <IoLogoInstagram size='20' /></p></a>
         </div>
 
         <div className='artistbox'>
@@ -65,12 +65,6 @@ const Gallery = () => {
           <a href="https://www.instagram.com/hairby_sauce/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Stephanie Suce <IoLogoInstagram size='20' /></p></a>
         </div>
 
-        {/* <div className='artistbox'>
-          <div className='imgbox'>
-            <img src={jason} alt="jason" />
-          </div>
-          <a href="https://www.instagram.com/jasonjosephhair/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Jason Joseph - Stylist / Colorist <IoLogoInstagram size='20' /></p></a>
-        </div> */}
       </div>
       <div className='brLine'></div>
       <h2>GALLERY</h2>

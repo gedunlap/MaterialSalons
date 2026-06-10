@@ -1,7 +1,7 @@
 import React from 'react'
 import sign from '../Photos/SignPhoto.jpg'
 import joanna from '../Photos/joanna.jpg'
-import construction from '../Photos/UnderConstruction.png'
+// import construction from '../Photos/UnderConstruction.png'
 
 
 const About = () => {
