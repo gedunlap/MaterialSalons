@@ -7,13 +7,23 @@ import rachel from '../Photos/StPete/Rachel Entwistle.jpg'
 import { IoLogoInstagram } from 'react-icons/io'
 // import construction from '../Photos/UnderConstruction.png'
 
+import gallery1 from '../Photos/Site Pics/IMG_0204.jpeg'
+import gallery2 from '../Photos/Site Pics/IMG_2902.jpeg'
+import gallery3 from '../Photos/Site Pics/IMG_3052.jpeg'
+import gallery4 from '../Photos/Site Pics/IMG_4154.jpeg'
+import gallery5 from '../Photos/Site Pics/IMG_4441.jpeg'
+import gallery6 from '../Photos/Site Pics/IMG_6803.jpeg'
+import gallery7 from '../Photos/Site Pics/IMG_7668.jpeg'
+import gallery8 from '../Photos/Site Pics/IMG_7950.jpeg'
 
 const imgArr = [
 
   {url:'https://i.imgur.com/KHKTS6j.jpg'},
   {url:'https://i.imgur.com/d1medHx.jpg'},
   {url:'https://i.imgur.com/bg73ePt.jpg'},
-  {url:'https://i.imgur.com/uciMTmW.jpg'}
+  {url:'https://i.imgur.com/uciMTmW.jpg'},
+  {url:gallery1},{url:gallery5},{url:gallery6},{url:gallery2},
+  {url:gallery3},{url:gallery4},{url:gallery7},{url:gallery8}
   
   
 ]

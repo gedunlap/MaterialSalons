@@ -1,6 +1,6 @@
 import React from 'react'
 import img9 from '../Photos/Site Pics/9.jpg'
-import longhair from '../Photos/longhair.jpg'
+import longhair from '../Photos/Site Pics/longhair.jpg'
 // import { BiRightArrow } from "react-icons/bi";
 // import { BsArrowRightShort } from "react-icons/bs";
 

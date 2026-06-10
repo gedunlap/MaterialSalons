@@ -6,7 +6,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoInstagram } from 'react-icons/io'
 import { NavBtnA } from '../Components/NavbarSP/NavbarElements'
-import tm from '../Photos/TM-symbol.png'
+import tm from '../Photos/Site Pics/TM-symbol.png'
 
 // import tpaLogo from '../Photos/Site Pics/tpa-logo.jpg'
 import mspLogo from '../Photos/Site Pics/msp-logo.jpg'
