@@ -32,7 +32,7 @@ const Navbar = ({toggle}) => {
           <Bars onClick={toggle} />
           <NavBtn>
             <NavBtnA>
-              <a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
+              <a href="https://www.fresha.com/a/material-st-pete-st-petersburg-1957-1st-avenue-south-jemgscy9?pId=537575" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
             </NavBtnA>
             <a href="https://www.instagram.com/materialtampa/" target="_blank" rel="noreferrer"><IoLogoInstagram size='30' style={{color:"white"}} /></a>
             <a href="mailto: contact@materialtampa.com"><IoMailOutline size='30' style={{color:"white"}} /></a>
